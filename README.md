@@ -50,15 +50,6 @@ Using **Python** and core **digital signal processing (DSP)** techniques, the sy
 
 ## 📁 Project Structure
 
-```
-.
-├── main.py                # Main Python script
-├── your_sentence.wav      # User-recorded sentence
-├── pitch_contour.png      # Output plot of pitch over frames
-├── formants.png           # Output plot of F1 and F2
-└── README.md              # This file
-```
-
 ---
 
 ## 🛠️ Requirements
@@ -72,9 +63,7 @@ Using **Python** and core **digital signal processing (DSP)** techniques, the sy
 
 ### 💡 Installation
 
-```
 pip install numpy scipy matplotlib soundfile
-```
 
 ---
 
@@ -86,11 +75,9 @@ Based on the classic speech production model:
 
 In the frequency domain:
 
-```
 S(ω) = E(ω) × H(ω)
 log|S(ω)| = log|E(ω)| + log|H(ω)|
 Cepstrum = IFFT(log|S(ω)|)
-```
 
 ### Key Ideas:
 
